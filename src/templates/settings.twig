@@ -1,0 +1,16 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    first: true,
+    label: "Manifest path",
+    instructions: "Relative path from your web folder to the parcel-manifest.json file. Default is dist/parcel-manifest.json.",
+    name: 'manifestPath',
+    value: settings.manifestPath
+}) }}
+
+{{ forms.textField({
+    label: "Dist folder path",
+    instructions : "Relative path to dist folder containing compiled files",
+    name: 'distPath',
+    value: settings.distPath
+}) }}

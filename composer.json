@@ -1,0 +1,41 @@
+{
+    "name": "heggemsnes/parcel-twig",
+    "description": "Get correct asset paths from Parcel when using Parcel Manifest.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "parceltwig"
+    ],
+    "support": {
+        "docs": "https://github.com/heggemsnes/parcel-twig/blob/master/README.md",
+        "issues": "https://github.com/heggemsnes/parcel-twig/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sigurd Heggemsnes",
+            "homepage": "kult.design"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "heggemsnes\\parceltwig\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "ParcelTwig",
+        "handle": "parcel-twig",
+        "developer": "Sigurd Heggemsnes",
+        "developerUrl": "kult.design",
+        "documentationUrl": "https://github.com/heggemsnes/parcel-twig/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/heggemsnes/parcel-twig/master/CHANGELOG.md",
+        "class": "heggemsnes\\parceltwig\\ParcelTwig"
+    }
+}
