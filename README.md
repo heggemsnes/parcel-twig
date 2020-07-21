@@ -24,20 +24,14 @@ To install the plugin, follow these instructions.
 
 ## ParcelTwig Overview
 
--Insert text here-
+Simple plugin for extracting correct asset path from parcel-manifest.json when using parcel. Check out https://github.com/kult-byra/parcel-craft-docker for usecase.
 
 ## Configuring ParcelTwig
 
--Insert text here-
+You can change the path to the parcel-manifest.json file as well as to your dist folder in the settings.
 
 ## Using ParcelTwig
 
--Insert text here-
-
-## ParcelTwig Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
+Use the twig function {{asset("index.js")}} to generate a script tag linking to i.e. js.00a46daa.js bundle.
 
 Brought to you by [Sigurd Heggemsnes](kult.design)
