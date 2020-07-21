@@ -18,7 +18,7 @@
     "authors": [
         {
             "name": "Sigurd Heggemsnes",
-            "homepage": "kult.design"
+            "homepage": "https://kult.design"
         }
     ],
     "require": {
@@ -33,7 +33,7 @@
         "name": "ParcelTwig",
         "handle": "parcel-twig",
         "developer": "Sigurd Heggemsnes",
-        "developerUrl": "kult.design",
+        "developerUrl": "https://kult.design",
         "documentationUrl": "https://github.com/heggemsnes/parcel-twig/blob/master/README.md",
         "changelogUrl": "https://raw.githubusercontent.com/heggemsnes/parcel-twig/master/CHANGELOG.md",
         "class": "heggemsnes\\parceltwig\\ParcelTwig"
